@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../gothic-2910057_1280.jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p{
+text-align: center;
+align-items: center;
+}
+.time1{
+color: white;
+margin: 10px;
+width: 10%;
+font-size: 40px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+box-shadow: 2px 3px 3px 3px rgb(214, 208, 208);
+}
+
+#hour{
+    /* background-color: red; */
+    border-radius: 20px;
+    
+}
+
+#minute{
+    /* background-color: rgb(16, 231, 45); */
+    border-radius: 20px;
+}
+
+#second{
+    /* background-color: rgb(231, 235, 10); */
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+#AMPM1{
+    border-radius: 20px;
+}
+
+.fulldate{
+   
+    font-size: 20px;
+    color: white;
+    /* background-color: red; */
+    border-radius: 20px;
+    margin: 45px;
+    box-shadow: 2px 3px 3px 3px rgb(145, 127, 127);
+    
+}
+
+
+
+@media only screen and (max-width:300px){
+
+   .container{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .time1{
+        color: white;
+        margin: 5px;
+        width: 10%;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hour{
+        /* background-color: red; */
+        border-radius: 10px;
+        
+    }
+
+    
+    #minute{
+        /* background-color: rgb(16, 231, 45); */
+        border-radius: 10px;
+    }
+    
+    #second{
+        /* background-color: rgb(231, 235, 10); */
+        border-radius: 10px;
+    }
+
+    #AMPM1{
+        border-radius: 10px;
+    }
+
+    .fulldate{
+   
+        font-size: 15px;
+        color: white;
+        /* background-color: red; */
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 2px 3px 3px 3px rgb(145, 127, 127);
+        
+    }
+}
